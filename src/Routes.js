@@ -7,8 +7,4 @@ export default [
     {path:'/page1', component: Page1},
     {path:'/page2', component: Page2},
     {path:'/blogpost/:id', component: Post},
-    
-
-
-   
-]
+    ]

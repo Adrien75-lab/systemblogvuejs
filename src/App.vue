@@ -1,12 +1,15 @@
 <template>
 <div id="app">
-  <Slider />
+  <header-top></header-top>
+  <router-view></router-view>
+  
 
   
   </div>
   </template>
   <script>
-  import Slider from './components/Slider.vue';
+  import Header from './components/Header'
+  
   
   export default {
       name: 'App',
