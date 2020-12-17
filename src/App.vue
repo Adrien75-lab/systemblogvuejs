@@ -1,19 +1,22 @@
 <template>
 <div id="app">
-  <header-top></header-top>
+  <Slider />
 
-  <router-view></router-view>
+  
   </div>
   </template>
   <script>
-  import Header from './components/Header'
+  import Slider from './components/Slider.vue';
+  
   export default {
-    name:'App',
-    components:{
-      'header-top': Header
+      name: 'App',
+      components: {
+        Slider
+      }
+    
 
     }
-  }
+  
   </script>
   <style>
 
