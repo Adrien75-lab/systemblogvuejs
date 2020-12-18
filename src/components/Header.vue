@@ -1,9 +1,9 @@
 <template>
 <div>
     <ul class="nav">
-        <li class="btn btn-primary btn-nav"><router-link to="/" exact>Accueil</router-link></li>
-        <li class="btn btn-primary btn-nav"><router-link to="/page1">Page1</router-link></li>
-        <li class="btn btn-primary btn-nav"><router-link to="/page2">Page2</router-link></li>
+        <li class="btn btn-primary btn-nav"><router-link to="/" exact><i class="fa fa-th"></i>Accueil</router-link></li>
+        <li class="btn btn-primary btn-nav"><router-link to="/page1">Les articles</router-link></li>
+        <li class="btn btn-primary btn-nav"><router-link to="/page2">To-do list</router-link></li>
 
     </ul>
 </div>

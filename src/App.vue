@@ -14,7 +14,6 @@
   export default {
       name: 'App',
       components: {
-        'contenu': Contenu,
         'header-top' : Header
       }
     
